@@ -1,0 +1,41 @@
+services:
+  accounts:
+    image: "carmahe00/accounts:s4"
+    container_name: accounts-ms
+    ports:
+      - "8080:8080"
+
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - carmahe00
+  loans:
+    image: "carmahe00/loans:s4"
+    container_name: loans-ms
+    ports:
+      - "8090:8090"
+
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - carmahe00
+  card:
+    image: "carmahe00/card:s4"
+    container_name: card-ms
+    ports:
+      - "9000:9000"
+
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - carmahe00
+
+networks:
+  carmahe00:
+    driver: "bridge"

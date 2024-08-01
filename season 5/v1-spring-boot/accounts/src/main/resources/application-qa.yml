@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome self-taught QA"
+  contactDetails:
+    name: "John QA"
+    email: "John@mail.es"
+  onCallSupport:
+    -(666) 555-754
+    -(666) 555-756
