@@ -61,3 +61,7 @@ V
 &docker-compose/prod/common-config.yaml,d\8\d8485f7adefbcc568f9a71abbfa3ac3eb9a1469e
 Y
 )docker-compose/default/docker-compose.yml,5\4\54d121a4174bc60a2b7478b442c704b13e8ad819
+b
+2docker-compose/observability/loki/loki-config.yaml,6\1\613895c2e63559867679f66e1da04214b5a816e8
+p
+@docker-compose/observability/promtail/promtail-local-config.yaml,e\a\ea4f97507f94c7d3340dce205807c1d954997294
