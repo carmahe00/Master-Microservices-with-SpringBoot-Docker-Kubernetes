@@ -1,0 +1,12 @@
+
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome self-taught"
+  contactDetails:
+    name: "John"
+    email: "John@mail.es"
+  onCallSupport:
+    -(777) 555-754
+    -(777) 555-756

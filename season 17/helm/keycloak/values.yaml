@@ -129,12 +129,12 @@ image:
 ## ref: https://github.com/bitnami/containers/tree/main/bitnami/keycloak#admin-credentials
 ##
 auth:
-  ## @param auth.adminUser Keycloak administrator user
+    ## @param auth.adminUser Keycloak administrator user
   ##
-  adminUser: user
+  adminUser: admin
   ## @param auth.adminPassword Keycloak administrator password for the new user
   ##
-  adminPassword: "password"
+  adminPassword: "admin"
   ## @param auth.existingSecret Existing secret containing Keycloak admin password
   ##
   existingSecret: ""

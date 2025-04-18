@@ -1,0 +1,24 @@
+dependencies:
+- name: iasbank-common
+  repository: file://../../iasbank-common
+  version: 0.1.0
+- name: configserver
+  repository: file://../../iasbank-services/configserver
+  version: 0.1.0
+- name: accounts
+  repository: file://../../iasbank-services/accounts
+  version: 0.1.0
+- name: card
+  repository: file://../../iasbank-services/card
+  version: 0.1.0
+- name: loans
+  repository: file://../../iasbank-services/loans
+  version: 0.1.0
+- name: gatewayserver
+  repository: file://../../iasbank-services/gatewayserver
+  version: 0.1.0
+- name: message
+  repository: file://../../iasbank-services/message
+  version: 0.1.0
+digest: sha256:88eba1b292271ce94c90bc6f4957d1f51de68d5690cf1ff897ab15159cc025a5
+generated: "2025-04-17T19:39:39.4744053-05:00"

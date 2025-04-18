@@ -1396,11 +1396,11 @@ prometheus:
             ]
        },
        {
-            "job_name": "cards",
+            "job_name": "card",
             "metrics_path": "/actuator/prometheus",
             "static_configs": [
               {
-                "targets": ["cards:9000"]
+                "targets": ["card:9000"]
               }
             ]
        },

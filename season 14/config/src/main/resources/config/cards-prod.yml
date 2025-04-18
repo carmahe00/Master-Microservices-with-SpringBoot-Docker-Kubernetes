@@ -1,0 +1,12 @@
+
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome self-taught PROD"
+  contactDetails:
+    name: "John Owner"
+    email: "John@mail.es"
+  onCallSupport:
+    -(456) 555-754
+    -(456) 555-756

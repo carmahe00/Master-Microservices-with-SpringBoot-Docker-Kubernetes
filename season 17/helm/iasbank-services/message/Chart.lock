@@ -1,0 +1,6 @@
+dependencies:
+- name: iasbank-common
+  repository: file://../../iasbank-common
+  version: 0.1.0
+digest: sha256:dd68d89be7d7fb2cf6bf997ea145daba522efba99bd55b4438ede075026834db
+generated: "2025-02-02T23:12:27.5084228-05:00"

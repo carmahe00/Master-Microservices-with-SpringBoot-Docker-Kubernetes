@@ -1,0 +1,27 @@
+dependencies:
+- name: iasbank-common
+  repository: file://../../iasbank-common
+  version: 0.1.0
+- name: configserver
+  repository: file://../../iasbank-services/configserver
+  version: 0.1.0
+- name: eurekaserver
+  repository: file://../../iasbank-services/eurekaserver
+  version: 0.1.0
+- name: accounts
+  repository: file://../../iasbank-services/accounts
+  version: 0.1.0
+- name: card
+  repository: file://../../iasbank-services/card
+  version: 0.1.0
+- name: loans
+  repository: file://../../iasbank-services/loans
+  version: 0.1.0
+- name: gatewayserver
+  repository: file://../../iasbank-services/gatewayserver
+  version: 0.1.0
+- name: message
+  repository: file://../../iasbank-services/message
+  version: 0.1.0
+digest: sha256:da29b35e74acabb92c2443ddcc3887103193a1267845e42d72f804c15efa6121
+generated: "2025-01-16T15:52:18.3021262-05:00"
